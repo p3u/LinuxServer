@@ -9,25 +9,25 @@ Take a baseline installation of a Linux distribution on a virtual machine and pr
 The video classes covered the concepts, but were far away from a walkthrough. This was great because just like in real work, in order to finish the project, I had to do a lot of Googling and experimenting to learn.
 
 ## Tasks done in the project
-Launch a Virtual Machine on AWS
-SSH into it
-Create a new user named grader
-Give the grader the permission to sudo
-Update all currently installed packages
-Change the SSH port from 22 to 2200
-Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
-Configure the local timezone to UTC
-Install and configure Apache to serve a Python mod_wsgi application
-Install and configure PostgreSQL, unallowing remote connections
-Create a new user named catalog with limited permissions to your catalog application database
-Install git, clone and setup your Catalog App project
+Launch a Virtual Machine on AWS  
+SSH into it  
+Create a new user named grader  
+Give the grader the permission to sudo  
+Update all currently installed packages  
+Change the SSH port from 22 to 2200  
+Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)  
+Configure the local timezone to UTC  
+Install and configure Apache to serve a Python mod_wsgi application  
+Install and configure PostgreSQL, unallowing remote connections  
+Create a new user named catalog with limited permissions to your catalog application database  
+Install git, clone and setup your Catalog App project  
 
 ## Useful info to connect
-IP address: 35.164.12.102
-Accessible SSH port: 2200
-Application URL: [http://ec2-35-164-12-102.us-west-2.compute.amazonaws.com/](http://ec2-35-164-12-102.us-west-2.compute.amazonaws.com/).
-The only way to access the server is using a private key provided in the repo (udacity_key.rsa)
-The password for the grader user is: Grader!951
+IP address: 35.164.12.102  
+Accessible SSH port: 2200  
+Application URL: [http://ec2-35-164-12-102.us-west-2.compute.amazonaws.com/](http://ec2-35-164-12-102.us-west-2.compute.amazonaws.com/)  
+The only way to access the server is using a private key provided in the repo (udacity_key.rsa)  
+The password for the grader user is: Grader!951  
 
 ## A long yet incomplete list of things that I had to do
 1. Logged in as root user through ssh
