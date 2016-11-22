@@ -25,7 +25,7 @@ Install git, clone and setup your Catalog App project
 ## Useful info to connect
 IP address: 35.164.12.102  
 Accessible SSH port: 2200  
-Application URL: [http://ec2-35-164-12-102.us-west-2.compute.amazonaws.com/](http://ec2-35-164-12-102.us-west-2.compute.amazonaws.com/)  
+You can test the WebApp (while it's still on AWS) in the URL: http://ec2-35-164-12-102.us-west-2.compute.amazonaws.com/  
 The only way to access the server is using a private key provided in the repo (udacity_key.rsa)  
 The password for the grader user is: Grader!951  
 
@@ -84,14 +84,14 @@ The password for the grader user is: Grader!951
 Basically a lot of Google Search + (Configuring Linux WebServers)[https://br.udacity.com/course/configuring-linux-web-servers--ud299/]
 Websited I visited the most according to my history:
 
-Stackoverflow:
+*Stackoverflow*:  
 http://stackoverflow.com/questions/22062266/how-to-give-apache-permission-to-write-to-home-directory
 http://stackoverflow.com/questions/1682440/permission-denied-error-with-django-while-uploading-a-file
 http://stackoverflow.com/questions/21797372/django-errno-13-permission-denied-var-www-media-animals-user-uploads
 http://stackoverflow.com/questions/9943042/htaccess-order-deny-allow-deny
 http://stackoverflow.com/questions/4313323/how-to-change-owner-of-postgresql-database
 
-DigitalOcean:
+*DigitalOcean*:  
 https://www.digitalocean.com/community/questions/proper-permissions-for-web-server-s-directory
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04
 https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
@@ -100,5 +100,5 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgres
 https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 
-PostgreSQL Docs:
+*PostgreSQL Docs*:  
 https://www.postgresql.org/docs/9.0/static/plpython.html
